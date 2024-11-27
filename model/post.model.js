@@ -17,6 +17,7 @@ var userSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         ref: "User"
     }
+
 });
 
 //Export the model
